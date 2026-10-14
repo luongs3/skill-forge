@@ -1,0 +1,7 @@
+name: skill-forge
+version: 0.1.0
+description: >
+  Turns a Hermes session into a reusable SKILL.md on NVIDIA Nemotron (Nebius Token Factory)
+  and saves it only after a sandboxed replay proves it finishes the task in fewer tool calls.
+author: luongs3
+kind: standalone
