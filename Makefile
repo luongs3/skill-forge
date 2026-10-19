@@ -1,5 +1,5 @@
 .PHONY: judge-demo live forge-example
-CASSETTE ?= cassettes/live10.json
+CASSETTE ?= cassettes/nebius-live.json
 
 # Replays recorded Nemotron responses through the real harness (sandbox + checkers run for real). No key, no network.
 judge-demo:

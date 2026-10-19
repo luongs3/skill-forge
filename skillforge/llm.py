@@ -1,7 +1,7 @@
 """OpenAI-compatible chat client with record/replay cassettes.
 
 Env:
-  SF_BASE_URL  default https://integrate.api.nvidia.com/v1  (Nebius: https://api.studio.nebius.com/v1)
+  SF_BASE_URL  default https://integrate.api.nvidia.com/v1  (Nebius Token Factory: https://api.tokenfactory.nebius.com/v1)
   SF_MODEL     default nvidia/nemotron-3-super-120b-a12b
   SF_API_KEY   or SF_API_KEY_FILE (default ~/.config/me-secrets/nvidia.txt)
   SF_MODE      live | record | replay   (replay needs no key / network)
